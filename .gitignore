@@ -13,6 +13,9 @@ libtool
 *.o
 *~
 test-runner-output.*
+test-suite.log
+tests/*.sh.log
+tests/*.sh.trs
 
 # programs
 intel-hex-loader
