@@ -1,0 +1,7 @@
+
+07 September 2024
+    Initial revision.
+    This project is maintained using the git SCM. There are release plans, so
+    the only place to see an actual list of changes is via the git change log.
+
+    But we must keep the autotools happy, so here is a file named ChangeLog for you.

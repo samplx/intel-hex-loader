@@ -1,0 +1,5 @@
+This is a test HEX file.
+Loads a single 'AA' data byte at address '0100'.
+:01010000AA54
+:00000001FF
+

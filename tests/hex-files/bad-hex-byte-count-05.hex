@@ -1,0 +1,7 @@
+This is a test HEX file.
+It has an invalid character ` in the byte count field.
+First line is fine, second has the error.
+:10010000214601360121470136007EFE09D2190140
+:1`00000000
+:00000001FF
+

@@ -1,0 +1,4 @@
+ERROR: Line: 3: Invalid hex character: !
+
+ERROR: Unable to read start of record. line number: 3
+ERROR: Unable to load HEX input file 'tests/hex-files/bad-hex-address-01.hex'

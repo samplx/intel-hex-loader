@@ -1,0 +1,10 @@
+initial memoryLimit  = 0x01ff
+program size setting = 1
+loading COM file     < 'tests/com-files/512-AA.com'
+bytes loaded         = 512
+loading HEX file     < 'tests/hex-files/sixteen-bytes-with-3F-at-0100.hex'
+X
+loaded.
+final memoryLimit    = 0x01ff
+file size in bytes   = 256
+dumping memory to    > 'test057.com'

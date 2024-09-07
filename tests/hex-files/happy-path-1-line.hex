@@ -1,0 +1,5 @@
+This is a test HEX file.
+First line is fine is valid 00 record, second is valid 01 EOF
+:10010000214601360121470136007EFE09D2190140
+:00000001FF
+

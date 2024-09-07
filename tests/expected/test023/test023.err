@@ -1,0 +1,4 @@
+ERROR: Line: 3: Invalid hex character: !
+
+ERROR: Unable to read record data @0x0101. line number: 3. byte offset: 1
+ERROR: Unable to load HEX input file 'tests/hex-files/bad-hex-data-byte-01.hex'

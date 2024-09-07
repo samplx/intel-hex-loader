@@ -1,0 +1,8 @@
+initial memoryLimit  = 0x0100
+program size setting = none
+loading HEX file     < 'tests/hex-files/single-byte-E5-at-0100-with-tailing-byte.hex'
+X
+loaded.
+final memoryLimit    = 0x01ff
+file size in bytes   = 256
+dumping memory to    > 'test050.com'

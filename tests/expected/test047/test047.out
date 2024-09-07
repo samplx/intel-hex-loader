@@ -1,0 +1,4 @@
+initial memoryLimit  = 0x0100
+program size setting = none
+loading HEX file     < 'tests/hex-files/bad-hex-byte-count-01.hex'
+X

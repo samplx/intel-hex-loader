@@ -1,0 +1,4 @@
+ERROR: Line: 5: Invalid hex character: /
+
+ERROR: Unable to read start of record. line number: 5
+ERROR: Unable to load HEX input file 'tests/hex-files/bad-hex-byte-count-01.hex'

@@ -1,0 +1,5 @@
+initial memoryLimit  = 0x0100
+program size setting = none
+loading HEX file     < 'tests/hex-files/zero-length-record.hex'
+
+loaded.

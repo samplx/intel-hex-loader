@@ -1,0 +1,11 @@
+Usage:
+    ./intel-hex-loader --output|-o output-com-file [--patch|-p original-com-file] [--size|-s pages] hex-file(s)
+
+This program is used to create a CP/M COM file from one or
+more Intel HEX format files.
+It should act like the CP/M program LOAD or HEXCOM or
+a DDT and SAVE combination.
+
+*  Either the --output or -o option must be defined.
+*  The --patch or -p option allows for patching an existing .COM file
+*  Size depends upon what is loaded. use --size or -s option to override.

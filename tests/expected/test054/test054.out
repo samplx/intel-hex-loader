@@ -1,0 +1,8 @@
+initial memoryLimit  = 0x02ff
+program size setting = 2
+loading HEX file     < 'tests/hex-files/sixteen-bytes-with-3F-at-0100.hex'
+X
+loaded.
+final memoryLimit    = 0x02ff
+file size in bytes   = 512
+dumping memory to    > 'test054.com'

@@ -1,0 +1,18 @@
+# cache files
+stamp-h1
+autom4te.cache
+.deps
+config.log
+config.status
+*.dSYM
+
+# generated files
+Makefile
+config.h
+libtool
+*.o
+*~
+test-runner-output.*
+
+# programs
+intel-hex-loader

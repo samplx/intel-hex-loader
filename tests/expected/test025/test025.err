@@ -1,0 +1,3 @@
+
+ERROR: checksum mismatch 0x4f/0x0f
+ERROR: Unable to load HEX input file 'tests/hex-files/bad-checksum.hex'
