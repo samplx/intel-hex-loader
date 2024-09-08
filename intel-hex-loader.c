@@ -183,6 +183,10 @@ void usage(loaderOptionsType *pOptions, FILE *fp) {
     fprintf(fp, "*  Size depends upon what is loaded. use --size or -s option to override.\n");
 }
 
+void printVersion() {
+    printf("%s\n", PACKAGE_STRING);
+}
+
 unsigned parseSize(const char *size) {
     char *last;
     errno = 0;
@@ -214,6 +218,10 @@ void setOption(int action, const char *arg, loaderOptionsType *pOptions) {
         case 'v':
             pOptions->isVerbose = true;
             break;
+        case 'V':
+            printVersion();
+            exit(EXIT_SUCCESS);
+            /* NOTREACHED */
         case '?':
             usage(pOptions, stderr);
             exit(EXIT_USAGE);
@@ -309,6 +317,7 @@ void loadPatchFile(loaderOptionsType *pOptions, loaderMemoryType *pMemory) {
 int main(int argc, char *argv[]) {
     static struct option long_options[] = {
         { "verbose", no_argument, NULL, 'v' },
+        { "version", no_argument, NULL, 'V' },
         { "help", no_argument, NULL, 'h'},
         { "output", required_argument, NULL, 'o'},
         { "patch", required_argument, NULL, 'p'},

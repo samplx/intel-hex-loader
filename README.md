@@ -14,8 +14,10 @@ followed by the `SAVE` command to persist the results.
 
 ## Options
 
-All options have a short, single character version: e.g. `-o` as
+Almost all options have a short, single character version: e.g. `-o` as
 well as a long version, e.g. `--output`.
+
+The `--version` option has no short version. It describes the version.
 
 The `--help` or `-h` option provides a short description of how to use the tool.
 

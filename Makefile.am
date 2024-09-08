@@ -24,7 +24,8 @@ intel_hex_loader_SOURCES = intel-hex-loader.c
 
 AM_TESTS_ENVIRONMENT = \
 	TESTDIR='$(srcdir)/tests'; export TESTDIR; \
-	INTEL_HEX_LOADER='$(builddir)/intel-hex-loader'; export INTEL_HEX_LOADER;
+	INTEL_HEX_LOADER='$(builddir)/intel-hex-loader'; export INTEL_HEX_LOADER; \
+	VERBOSE='yes'; export VERBOSE;
 
 TESTS = \
 	tests/test001.sh \
@@ -83,5 +84,6 @@ TESTS = \
 	tests/test054.sh \
 	tests/test055.sh \
 	tests/test056.sh \
-	tests/test057.sh
+	tests/test057.sh \
+	tests/test058.sh
 
