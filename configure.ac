@@ -18,7 +18,9 @@ then
 fi
 
 dnl Checks for header files.
-AC_CHECK_HEADERS(errno.h getopt.h stdbool.h stdlib.h stdint.h stdio.h string.h)
+AC_CHECK_HEADERS(errno.h getopt.h stdbool.h stdlib.h stdint.h stdio.h string.h, [], [
+    AC_MSG_ERROR([Required standard header is missing.])
+])
 
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
