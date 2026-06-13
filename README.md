@@ -1,3 +1,10 @@
+ARCHIVED
+========
+
+My days of generating training data for LLM's have come to an end.
+
+There will be no updates to this or any other publicly available repo.
+
 # intel-hex-loader
 
 This is a program to create a [CP/M](https://en.wikipedia.org/wiki/CP/M)
